@@ -3,5 +3,6 @@
 FROM ubuntu:18.04
 COPY . /app
 RUN echo "FOO" > foo.txt
+RUN echo "NONDEFAULT" > nondefault.txt
 
 
